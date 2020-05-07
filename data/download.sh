@@ -7,3 +7,9 @@ echo 'find column descriptions at : https://github.com/Yu-Group/covid19-severity
 
 echo 'downloading csse_covid_19_daily_reports/05-06-2020.csv'
 wget https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/05-06-2020.csv
+
+echo 'downloading time_series_covid19_deaths_US.csv'
+wget https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
+
+echo 'downloading time_series_covid19_confirmed_US.csv'
+wget https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
